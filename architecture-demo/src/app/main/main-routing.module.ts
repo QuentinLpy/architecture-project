@@ -8,7 +8,7 @@ const routes: Routes = [
     path: '',
     component: MainComponent,
     children: [
-      { path: 'flip', loadChildren: './flip-anim-demo/flip-anim-demo.module#FlipAnimDemoModule' }
+      { path: 'flip', loadChildren: '../flip-anim-demo/flip-anim-demo.module#FlipAnimDemoModule' },
     ]
   },
 ];
