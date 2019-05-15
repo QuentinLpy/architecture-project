@@ -1,0 +1,24 @@
+#top-bar {
+  height: 50px;
+  background: linear-gradient(45deg,#03aaab 0,#92d490 50%,#dfeb82 100%);
+  border-bottom: #92d490 solid 2px;
+  box-shadow: 0 4px 6px -6px black;
+  color: white;
+  padding: 0 15px;
+}
+
+.line {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: end;
+  .title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .author {
+    font-style: italic;
+    font-size: 10px;
+  }
+}
+

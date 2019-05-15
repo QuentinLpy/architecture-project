@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'flip', loadChildren: './flip-anim-demo/flip-anim-demo.module#FlipAnimDemoModule' }
+  { path: 'main', loadChildren: './main/main.module#MainModule' }
 ];
 
 @NgModule({
