@@ -1,0 +1,4 @@
+<div class='cards'>
+  <app-card [information]="element" (close)='this.close($event)' (isBig)='toggleClassBig($event)'
+    *ngFor="let element of elements"></app-card>
+</div>

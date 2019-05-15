@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'flip', loadChildren: './flip-anim-demo/flip-anim-demo.module#FlipAnimDemoModule' }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

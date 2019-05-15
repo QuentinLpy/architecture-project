@@ -1,0 +1,13 @@
+<div [id]="'card-' + this.information.id" class="card">
+
+  <div class='close-btn' (click)="this.close.emit(this.information.id)">
+    <mat-icon>clear</mat-icon>
+  </div>
+  <img class='card-image' [src]='this.information.img' />
+  <div class='card-body'>
+    <p>
+      {{this.information.desc}}
+    </p>
+    <div class='btn' (click)="this.isBig.emit(this.information.id)">En savohfgir plus</div>
+  </div>
+</div>
